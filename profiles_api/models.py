@@ -21,18 +21,15 @@ class UserProfileManager(BaseUserManager):
         """ 위에서 정의한 사용자의 객체 정보대로 사용자 반환환"""
         return user
         
-        def create_superuser(self, email, name, password):
-            """Create and save a new superuser with given details"""
-            user = self.create_user(email, name, password)
+    def create_superuser(self, email, name, password):
+        """Create and save a new superuser with given details"""
+        user = self.create_user(email, name, password)
 
-            user.is_superuser = True
-            user.is_staff = True
-            user.save(using=self._db)
+        user.is_superuser = True
+        user.is_staff = True
+        user.save(using=self._db)
 
-            return user
-
-
-
+        return user
 
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
