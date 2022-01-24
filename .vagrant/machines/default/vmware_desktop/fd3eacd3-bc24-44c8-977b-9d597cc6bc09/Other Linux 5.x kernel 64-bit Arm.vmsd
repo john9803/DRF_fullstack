@@ -1,0 +1,5 @@
+.encoding = "UTF-8"
+cloneOf0 = "/Users/jypsmac/.vagrant.d/boxes/spox-VAGRANTSLASH-ubuntu-arm/1.0.0/vmware_desktop/Other Linux 5.x kernel 64-bit Arm.vmx"
+numCloneOf = "1"
+sentinel0 = "Virtual Disk-cl1.vmdk"
+numSentinels = "1"

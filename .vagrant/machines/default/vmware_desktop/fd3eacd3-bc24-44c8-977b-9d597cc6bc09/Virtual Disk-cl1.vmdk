@@ -1,0 +1,21 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=67c258b4
+parentCID=0ad0ca64
+createType="twoGbMaxExtentSparse"
+parentFileNameHint="/Users/jypsmac/.vagrant.d/boxes/spox-VAGRANTSLASH-ubuntu-arm/1.0.0/vmware_desktop/Virtual Disk-000005.vmdk"
+# Extent description
+RW 8323072 SPARSE "Virtual Disk-cl1-s001.vmdk"
+RW 8323072 SPARSE "Virtual Disk-cl1-s002.vmdk"
+RW 8323072 SPARSE "Virtual Disk-cl1-s003.vmdk"
+RW 8323072 SPARSE "Virtual Disk-cl1-s004.vmdk"
+RW 8323072 SPARSE "Virtual Disk-cl1-s005.vmdk"
+RW 8323072 SPARSE "Virtual Disk-cl1-s006.vmdk"
+RW 2490368 SPARSE "Virtual Disk-cl1-s007.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.fcd.uuid = "00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00"
+ddb.longContentID = "350689045a8ca839ed4b78c267c258b4"
